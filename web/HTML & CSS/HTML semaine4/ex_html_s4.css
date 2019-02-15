@@ -1,0 +1,120 @@
+@font-face
+{
+  font-family: 'Facon';
+  src: url('Facon.ttf');
+}
+#corp
+{
+  display: flex;
+  justify-content: space-between;
+}
+#liseré
+{
+  background-color: #353230;
+  border-radius: 12px;
+  width: 12%;
+  height: 500px;
+}
+.celement:nth-child(2)
+{
+  width: 76%;
+}
+.celement:nth-child(3)
+{
+  width: 12%;
+}
+#boxbox
+{
+  display: flex;
+  justify-content: space-between;
+}
+.belement
+{
+  margin-left: 3%;
+}
+.belement:nth-child(1)
+{
+  width: 30%;
+}
+.belement:nth-child(2)
+{
+  width: 40%;
+}
+.belement:nth-child(3)
+{
+  width: 30%;
+}
+.belement:nth-child(3) p
+{
+  text-align: left;
+}
+h1
+{
+  color: black;
+  text-align: center;
+  font-family: "Facon", Impact, "Arial Black", Arial, sans-serif;
+}
+h2
+{
+  color: #353230;
+  text-align: left;
+  font-family: "Facon", Impact, "Arial Black", Arial, sans-serif;
+}
+p
+{
+  text-align: center;
+}
+#tof img
+{
+  text-align: center;
+  width: 45%;
+  height: 15%;
+  box-shadow: 3px 3px 1px #353230;
+  border: 1px black solid;
+}
+@media all and (max-width: 1023px)
+{
+  #corp
+  {
+    background-color: black;
+  }
+  #liseré
+  {
+    display: none;
+  }
+  .celement:nth-child(2)
+  {
+    width: 80%;
+  }
+  .celement:nth-child(3)
+  {
+    width: 20%;
+    height: 30%;
+  }
+  h1, h1 + p
+  {
+    text-align: center;
+    color: white;
+  }
+  h2
+  {
+    color: green;
+  }
+  #boxbox
+  {
+    flex-direction: column;
+    color: white;
+  }
+  .belement:nth-child(1)
+  {
+    width: auto;
+  }
+  .belement:nth-child(2)
+  {
+    width: auto;
+  }
+  .belement:nth-child(3)
+  {
+    width: auto;
+  }
+}

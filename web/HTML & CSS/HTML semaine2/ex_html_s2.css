@@ -1,0 +1,25 @@
+@font-face
+{
+  font-family: 'Facon';
+  src: url('Facon.ttf');
+}
+html
+{
+  background-image: url("ekko.jpg");
+}
+h1, h2
+{
+  color: blue;
+  text-align: center;
+  font-family: "Facon", Impact, "Arial Black", Arial, sans-serif;
+}
+p
+{
+  text-align: center;
+  color: white;
+}
+ul
+{
+  border: 3px purple solid;
+  box-shadow: 6px 6px 0px white;
+}
